@@ -123,7 +123,7 @@ body {
 
 /* ======= HERO ======= */
 .hero {
-  background: linear-gradient(135deg, var(--cafe) 0%, #6b3420 55%, var(--rojo-dark) 100%);
+  background: url("./imagenes/fondo-hero.svg.svg") center/cover no-repeat;
   padding: 90px 24px 80px;
   position: relative;
   overflow: hidden;
@@ -136,7 +136,7 @@ body {
                     radial-gradient(circle at 10% 80%, rgba(192,57,43,0.2) 0%, transparent 50%);
 }
 .hero::after {
-  content: '🐷';
+   imagen: './imagenes/logoLaPiara.png';
   position: absolute;
   right: -20px;
   bottom: -20px;

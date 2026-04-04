@@ -1,0 +1,51 @@
+<svg width="100%" viewBox="0 0 680 430" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <pattern id="logoPattern" x="0" y="0" width="170" height="170" patternUnits="userSpaceOnUse">
+    <!-- cerdo silueta simplificada -->
+    <g transform="translate(45,38) scale(0.78)" opacity="0.13" fill="#FDF6EC">
+      <!-- cuerpo -->
+      <ellipse cx="55" cy="68" rx="42" ry="30"/>
+      <!-- cabeza -->
+      <ellipse cx="17" cy="60" rx="20" ry="18"/>
+      <!-- hocico -->
+      <ellipse cx="4" cy="63" rx="9" ry="7"/>
+      <!-- oreja izq -->
+      <ellipse cx="10" cy="44" rx="7" ry="10" transform="rotate(-20,10,44)"/>
+      <!-- oreja der -->
+      <ellipse cx="24" cy="42" rx="7" ry="10" transform="rotate(15,24,42)"/>
+      <!-- patas -->
+      <rect x="28" y="90" width="10" height="18" rx="4"/>
+      <rect x="44" y="90" width="10" height="18" rx="4"/>
+      <rect x="60" y="90" width="10" height="18" rx="4"/>
+      <rect x="76" y="90" width="10" height="18" rx="4"/>
+      <!-- cola -->
+      <path d="M97 58 Q115 45 110 62 Q105 78 118 72" fill="none" stroke="#FDF6EC" stroke-width="5" stroke-linecap="round" opacity="0.13"/>
+    </g>
+    <!-- texto LA PIARA -->
+    <text x="85" y="136" text-anchor="middle" font-family="Georgia, serif" font-size="11" font-weight="700" letter-spacing="3" fill="#FDF6EC" opacity="0.13">LA PIARA</text>
+    <!-- línea decorativa -->
+    <line x1="30" y1="143" x2="140" y2="143" stroke="#FDF6EC" stroke-width="0.8" opacity="0.10"/>
+    <text x="85" y="154" text-anchor="middle" font-family="Georgia, serif" font-size="7" letter-spacing="2" fill="#FDF6EC" opacity="0.10">FRIGORÍFICO</text>
+  </pattern>
+</defs>
+
+<!-- Fondo base degradado café/rojo -->
+<rect width="680" height="420" fill="#4A2C17" style="fill:rgb(74, 44, 23);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<rect width="680" height="420" fill="url(#grad1)" style="stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+<!-- Definir gradiente inline como rect superpuesto -->
+<rect width="680" height="420" fill="#6b3420" opacity="0.55" style="fill:rgb(107, 52, 32);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.55;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<rect width="680" height="420" fill="#922b21" opacity="0.25" style="fill:rgb(146, 43, 33);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.25;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+<!-- Patrón de logos -->
+<rect width="680" height="420" fill="url(#logoPattern)" style="stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+<!-- Viñeta: bordes más oscuros para profundidad -->
+<rect width="680" height="420" fill="none" stroke="#2a1508" stroke-width="80" opacity="0.45" style="fill:none;stroke:rgb(42, 21, 8);color:rgb(255, 255, 255);stroke-width:80px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.45;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+<!-- Líneas decorativas tipo carnicería clásica -->
+<line x1="0" y1="8" x2="680" y2="8" stroke="#E67E22" stroke-width="2.5" opacity="0.4" style="fill:rgb(0, 0, 0);stroke:rgb(230, 126, 34);color:rgb(255, 255, 255);stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.4;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<line x1="0" y1="14" x2="680" y2="14" stroke="#E67E22" stroke-width="0.8" opacity="0.25" style="fill:rgb(0, 0, 0);stroke:rgb(230, 126, 34);color:rgb(255, 255, 255);stroke-width:0.8px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.25;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<line x1="0" y1="406" x2="680" y2="406" stroke="#E67E22" stroke-width="2.5" opacity="0.4" style="fill:rgb(0, 0, 0);stroke:rgb(230, 126, 34);color:rgb(255, 255, 255);stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.4;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<line x1="0" y1="400" x2="680" y2="400" stroke="#E67E22" stroke-width="0.8" opacity="0.25" style="fill:rgb(0, 0, 0);stroke:rgb(230, 126, 34);color:rgb(255, 255, 255);stroke-width:0.8px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.25;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+</svg>

@@ -15,42 +15,42 @@ const categorias = [
 const productos = [
   // ── CORTES ──
   {
-    id: 1, cat: 'cortes', emoji: '🥩',
+    id: 1, cat: 'cortes', imagen: './imagenes/bondiola.jpg',
     nombre: 'Bondiola entera',
     desc: 'Corte jugoso, ideal para cocido lento o al horno. Con su veteado natural.',
     precio: 4200, unidad: 'kg', badge: 'Estrella',
     bg: 'bg-cortes'
   },
   {
-    id: 2, cat: 'cortes', emoji: '🍖',
+    id: 2, cat: 'cortes', imagen: './imagenes/paletaDeCerdo.jpg',
     nombre: 'Paleta de cerdo',
     desc: 'Versátil y sabrosa. Perfecta para guisos, asado o rellena.',
     precio: 3800, unidad: 'kg',
     bg: 'bg-cortes'
   },
   {
-    id: 3, cat: 'cortes', emoji: '🥩',
+    id: 3, cat: 'cortes', imagen: './imagenes/costillasDeCerdo.jpeg',
     nombre: 'Costilla de cerdo',
     desc: 'Ideal para asado o parrilla. Corte tierno con mucho sabor.',
     precio: 4500, unidad: 'kg',
     bg: 'bg-cortes'
   },
   {
-    id: 4, cat: 'cortes', emoji: '🍖',
+    id: 4, cat: 'cortes', imagen: './imagenes/pernilDeCerdo.jpg',
     nombre: 'Pernil de cerdo',
     desc: 'Corte clásico para fiestas. Se cocina entero, al horno con hierbas.',
     precio: 3600, unidad: 'kg', badge: 'Popular',
     bg: 'bg-cortes'
   },
   {
-    id: 5, cat: 'cortes', emoji: '🥩',
+    id: 5, cat: 'cortes', imagen: './imagenes/lomoDeCerdo.png',
     nombre: 'Lomo de cerdo',
     desc: 'El corte más magro. Tierno y bajo en grasa, ideal a la sartén.',
     precio: 5800, unidad: 'kg',
     bg: 'bg-cortes'
   },
   {
-    id: 6, cat: 'cortes', emoji: '🍖',
+    id: 6, cat: 'cortes', imagen: './imagenes/matambreDeCerdo.jpg',
     nombre: 'Matambre de cerdo',
     desc: 'Para arrollar, rellenar o a la parrilla. Fino y sabroso.',
     precio: 4100, unidad: 'kg',
@@ -59,28 +59,28 @@ const productos = [
 
   // ── CHACINADOS ──
   {
-    id: 7, cat: 'chacinados', emoji: '🥓',
+    id: 7, cat: 'chacinados', imagen: './imagenes/pancetaAhumada.jpg',
     nombre: 'Panceta ahumada',
     desc: 'Curada y ahumada artesanalmente. Tiras finas para desayuno o guarnición.',
     precio: 5200, unidad: 'kg', badge: 'Artesanal',
     bg: 'bg-chacinados'
   },
   {
-    id: 8, cat: 'chacinados', emoji: '🥩',
+    id: 8, cat: 'chacinados', imagen: './imagenes/jamonCocido.jpg',
     nombre: 'Jamón cocido',
     desc: 'Elaboración propia. Sin conservantes artificiales, sabor suave y natural.',
     precio: 6800, unidad: 'kg',
     bg: 'bg-chacinados'
   },
   {
-    id: 9, cat: 'chacinados', emoji: '🍖',
+    id: 9, cat: 'chacinados', imagen: './imagenes/bondiolaAhumada.png',
     nombre: 'Bondiola ahumada',
     desc: 'Curada en sal y especias, luego ahumada en leña. Sabor intenso único.',
     precio: 7200, unidad: 'kg', badge: 'Artesanal',
     bg: 'bg-chacinados'
   },
   {
-    id: 10, cat: 'chacinados', emoji: '🥓',
+    id: 10, cat: 'chacinados', imagen: './imagenes/pancetaSalada.jpg',
     nombre: 'Panceta salada',
     desc: 'Curada en salmuera. Clásica para guisos y pucheros argentinos.',
     precio: 4400, unidad: 'kg',
@@ -89,35 +89,35 @@ const productos = [
 
   // ── EMBUTIDOS ──
   {
-    id: 11, cat: 'embutidos', emoji: '🌭',
+    id: 11, cat: 'embutidos', imagen: './imagenes/chorizoDeCerdo.jpg',
     nombre: 'Chorizo de cerdo',
     desc: 'De producción propia. Condimentado con pimentón y especias artesanales.',
     precio: 4800, unidad: 'kg', badge: 'Propio',
     bg: 'bg-embutidos'
   },
   {
-    id: 12, cat: 'embutidos', emoji: '🌭',
+    id: 12, cat: 'embutidos', imagen: './imagenes/salchichaParrillera.jpg',
     nombre: 'Salchicha parrillera',
     desc: 'Fina y jugosa. Ideal para parrilla o plancha. Mezcla de cerdo selecto.',
     precio: 4200, unidad: 'kg',
     bg: 'bg-embutidos'
   },
   {
-    id: 13, cat: 'embutidos', emoji: '🌭',
+    id: 13, cat: 'embutidos', imagen: './imagenes/morcilla.jpg',
     nombre: 'Morcilla',
     desc: 'Receta tradicional con cebolla de verdeo. Para el asado completo.',
     precio: 3500, unidad: 'kg',
     bg: 'bg-embutidos'
   },
   {
-    id: 14, cat: 'embutidos', emoji: '🌭',
+    id: 14, cat: 'embutidos', imagen: './imagenes/longaniza.png',
     nombre: 'Longaniza',
     desc: 'Embutido curado con vino y ajo. Ideal para picadas y tablas.',
     precio: 6200, unidad: 'kg', badge: 'Premium',
     bg: 'bg-embutidos'
   },
   {
-    id: 15, cat: 'embutidos', emoji: '🌭',
+    id: 15, cat: 'embutidos', imagen: './imagenes/salaminArtesanal.jfif',
     nombre: 'Salamín artesanal',
     desc: 'Madurado 45 días. Feteado a mano, sabor intenso y perfecto.',
     precio: 8500, unidad: 'kg', badge: 'Artesanal',
@@ -126,28 +126,28 @@ const productos = [
 
   // ── ELABORADOS ──
   {
-    id: 16, cat: 'elaborados', emoji: '🍽️',
+    id: 16, cat: 'elaborados', imagen: './imagenes/bondiolaRellena.jpg',
     nombre: 'Bondiola rellena',
     desc: 'Rellena con ciruelas, nueces y romero. Lista para hornear.',
     precio: 6500, unidad: 'kg', badge: 'Listo',
     bg: 'bg-elaborados'
   },
   {
-    id: 17, cat: 'elaborados', emoji: '🥙',
+    id: 17, cat: 'elaborados', imagen: './imagenes/matambreArrollado.jpg',
     nombre: 'Matambre arrollado',
     desc: 'Arrollado de cerdo con morrón, huevo duro y aceitunas. Para frío o caliente.',
     precio: 5900, unidad: 'kg',
     bg: 'bg-elaborados'
   },
   {
-    id: 18, cat: 'elaborados', emoji: '🫙',
+    id: 18, cat: 'elaborados', imagen: './imagenes/chicharroneDeCerdo.jpg',
     nombre: 'Chicharrón de cerdo',
     desc: 'Frito en su propia grasa. Crocante, ideal para picadas o snack.',
     precio: 3200, unidad: '250g',
     bg: 'bg-elaborados'
   },
   {
-    id: 19, cat: 'elaborados', emoji: '🥚',
+    id: 19, cat: 'elaborados', imagen: './imagenes/grasaDeCerdo.jpg',
     nombre: 'Grasa de cerdo',
     desc: 'Pura, derretida y filtrada. Para cocinar y repostería tradicional.',
     precio: 1800, unidad: 'kg',
@@ -156,28 +156,28 @@ const productos = [
 
   // ── MENUDENCIAS ──
   {
-    id: 20, cat: 'menudencias', emoji: '🫀',
+    id: 20, cat: 'menudencias', imagen: './imagenes/higadoDeCerdo.png',
     nombre: 'Hígado de cerdo',
     desc: 'Muy nutritivo. Para encebollado, patés y preparaciones especiales.',
     precio: 1800, unidad: 'kg',
     bg: 'bg-menudencias'
   },
   {
-    id: 21, cat: 'menudencias', emoji: '🦷',
+    id: 21, cat: 'menudencias', imagen: './imagenes/PataDeCerdo.jpg',
     nombre: 'Pata de cerdo',
     desc: 'Para puchero y caldos. Gelatinosa y llena de colágeno natural.',
     precio: 1500, unidad: 'kg',
     bg: 'bg-menudencias'
   },
   {
-    id: 22, cat: 'menudencias', emoji: '🐷',
+    id: 22, cat: 'menudencias', imagen: './imagenes/orejaDeCerdo.jpg',
     nombre: 'Oreja de cerdo',
     desc: 'Para cocido tradicional o a la plancha con limón y ajo.',
     precio: 1400, unidad: 'kg',
     bg: 'bg-menudencias'
   },
   {
-    id: 23, cat: 'menudencias', emoji: '🫁',
+    id: 23, cat: 'menudencias', imagen: './imagenes/corazonDeCerdo.jpg',
     nombre: 'Corazón de cerdo',
     desc: 'Magro y con buen sabor. Para estofados o en brochette.',
     precio: 1600, unidad: 'kg',
@@ -186,21 +186,21 @@ const productos = [
 
   // ── ESPECIALES ──
   {
-    id: 24, cat: 'especiales', emoji: '⭐',
+    id: 24, cat: 'especiales', imagen: './imagenes/mediaResDeCerdo.jpg',
     nombre: 'Media res de cerdo',
     desc: 'Venta entera por encargo. Precio mayorista, ideal para eventos.',
     precio: 3200, unidad: 'kg', badge: 'Encargo',
     bg: 'bg-especiales'
   },
   {
-    id: 25, cat: 'especiales', emoji: '🎁',
+    id: 25, cat: 'especiales', imagen: './imagenes/packAsado.jpg',
     nombre: 'Pack Asado Completo',
     desc: 'Costilla + chorizo + morcilla + panceta. Todo para una parrillada completa.',
     precio: 18500, unidad: 'pack', badge: 'Oferta',
     bg: 'bg-especiales'
   },
   {
-    id: 26, cat: 'especiales', emoji: '🎄',
+    id: 26, cat: 'especiales', imagen: './imagenes/packFiesta.jpg',
     nombre: 'Pack Fiestas',
     desc: 'Bondiola rellena + jamón cocido + salamín. El clásico de fin de año.',
     precio: 22000, unidad: 'pack', badge: 'Especial',
@@ -244,7 +244,7 @@ function renderProductos() {
   grid.innerHTML = filtrados.map((p, i) => `
     <div class="product-card" style="animation-delay:${i * 0.05}s">
       <div class="product-img ${p.bg}">
-        <span>${p.emoji}</span>
+        <img src="${p.imagen}" alt="${p.nombre}" style="width:100%;height:100%;object-fit:cover;">
         ${p.badge ? `<span class="product-badge">${p.badge}</span>` : ''}
       </div>
       <div class="product-body">
