@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>La Piara — Frigorífico</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Barlow:wght@300;400;500;600&family=Barlow+Condensed:wght@600;700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="header-inner">
+      <div class="logo-block">
+        <span class="logo-icon">🐷</span>
+        <div>
+          <h1 class="logo-title">La Piara</h1>
+          <p class="logo-sub">Frigorífico &amp; Carnicería</p>
+        </div>
+      </div>
+      <nav class="nav-desktop">
+        <a href="#productos" class="nav-link">Productos</a>
+        <a href="#nosotros" class="nav-link">Nosotros</a>
+        <a href="#contacto" class="nav-link">Contacto</a>
+      </nav>
+      <button class="cart-btn" id="cartBtn">
+        <span class="cart-icon">🛒</span>
+        <span class="cart-count" id="cartCount">0</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-content">
+      <p class="hero-label">Villa Mercedes · San Luis</p>
+      <h2 class="hero-title">Cerdo fresco,<br/><em>directo del campo</em></h2>
+      <p class="hero-desc">Cortes premium, chacinados artesanales y productos elaborados. Todo de cerdo, todo con calidad garantizada.</p>
+      <a href="#productos" class="hero-cta">Ver productos</a>
+    </div>
+    <div class="hero-badges">
+      <div class="badge">100%<br/><span>Porcino</span></div>
+      <div class="badge">Fresco<br/><span>Diario</span></div>
+      <div class="badge">Envío<br/><span>Local</span></div>
+    </div>
+  </section>
+
+  <!-- CATEGORÍAS -->
+  <section class="categories-section" id="productos">
+    <div class="section-header">
+      <p class="section-label">Nuestros productos</p>
+      <h2 class="section-title">¿Qué estás buscando?</h2>
+    </div>
+    <div class="categories-bar" id="categoriesBar">
+      <!-- generado por JS -->
+    </div>
+  </section>
+
+  <!-- PRODUCTOS GRID -->
+  <section class="products-section">
+    <div class="products-grid" id="productsGrid">
+      <!-- generado por JS -->
+    </div>
+  </section>
+
+  <!-- NOSOTROS -->
+  <section class="nosotros-section" id="nosotros">
+    <div class="nosotros-inner">
+      <div class="nosotros-text">
+        <p class="section-label">Quiénes somos</p>
+        <h2 class="nosotros-title">Más de 15 años<br/>en el rubro</h2>
+        <p class="nosotros-desc">La Piara nació con la misión de llevar la mejor carne de cerdo a las mesas de Villa Mercedes. Trabajamos con productores locales, garantizando frescura y trazabilidad en cada corte.</p>
+        <ul class="nosotros-features">
+          <li>✔ Cortes realizados a pedido</li>
+          <li>✔ Chacinados elaborados artesanalmente</li>
+          <li>✔ Envíos a domicilio en la ciudad</li>
+          <li>✔ Precios mayoristas y minoristas</li>
+        </ul>
+      </div>
+      <div class="nosotros-visual">
+        <div class="visual-card">🥩</div>
+        <div class="visual-card small">🌿</div>
+        <div class="visual-card small accent">🏆</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="contacto-section" id="contacto">
+    <div class="contacto-inner">
+      <p class="section-label white">Contacto</p>
+      <h2 class="contacto-title">¿Querés hacer un pedido?</h2>
+      <div class="contacto-cards">
+        <a href="https://wa.me/5492657000000" class="contacto-card" target="_blank">
+          <span class="c-icon">📱</span>
+          <span class="c-label">WhatsApp</span>
+          <span class="c-value">+54 9 2657 ...</span>
+        </a>
+        <a href="https://www.instagram.com/lapiara_frigorifico" class="contacto-card" target="_blank">
+          <span class="c-icon">📸</span>
+          <span class="c-label">Instagram</span>
+          <span class="c-value">@lapiara_frigorifico</span>
+        </a>
+        <div class="contacto-card">
+          <span class="c-icon">📍</span>
+          <span class="c-label">Ubicación</span>
+          <span class="c-value">Villa Mercedes, SL</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© 2025 La Piara Frigorífico — Villa Mercedes, San Luis</p>
+    <p class="footer-sub">Todos los precios son orientativos. Consultá disponibilidad.</p>
+  </footer>
+
+  <!-- CART MODAL -->
+  <div class="cart-overlay" id="cartOverlay">
+    <div class="cart-modal">
+      <div class="cart-header">
+        <h3>Tu pedido</h3>
+        <button class="cart-close" id="cartClose">✕</button>
+      </div>
+      <div class="cart-items" id="cartItems"></div>
+      <div class="cart-footer">
+        <div class="cart-total">Total: <span id="cartTotal">$0</span></div>
+        <a href="https://wa.me/5492657000000" class="cart-whatsapp" id="cartWhatsapp" target="_blank">
+          📱 Enviar pedido por WhatsApp
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
