@@ -136,7 +136,6 @@ body {
                     radial-gradient(circle at 10% 80%, rgba(192,57,43,0.2) 0%, transparent 50%);
 }
 .hero::after {
-   imagen: './imagenes/logoLaPiara.png';
   position: absolute;
   right: -20px;
   bottom: -20px;
